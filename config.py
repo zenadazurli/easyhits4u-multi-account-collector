@@ -1,14 +1,13 @@
 # config.py - Configurazione per il multi-account collector
 
-# Lista degli account da utilizzare
+# LISTA DEGLI ACCOUNT DA UTILIZZARE
 # Formato: email, password, nome_identificativo
 ACCOUNTS = [
-    # Inserisci qui i tuoi account
-    # {'email': 'dangiopiera+filippomesherda@gmail.com', 'password': 'BV36!dav$C', 'name': 'filippomesherda'},
-    # {'email': 'piersilviogarrini+linadarini@gmail.com', 'password': 'BV36!dav$C', 'name': 'linadarini'},
-    # {'email': 'sandrominori50+ucecelu@gmail.com', 'password': 'BV36!dav$C', 'name': 'uccelu'},
-    # {'email': 'sandrominori50+uzakabechi@gmail.com', 'password': 'BV36!dav$C', 'name': 'uzakabechi'},
-    # {'email': 'sandrominori50+ulonomizano@gmail.com', 'password': 'BV36!dav$C', 'name': 'unlomizano'},
+    {'email': 'dangiopiera+filippomesherda@gmail.com', 'password': 'BV36!dav$C', 'name': 'acc1'},
+    {'email': 'piersilviogarrini+linadarini@gmail.com', 'password': 'GF45!!dave', 'name': 'acc2'},
+    {'email': 'sandrominori50+ucecelu@gmail.com', 'password': 'DDnmVV45!!', 'name': 'acc3'},
+    {'email': 'sandrominori50+ulonomizano@gmail.com', 'password': 'DDnmVV45!!', 'name': 'acc4'},
+    {'email': 'sandrominori50+uzakabechi@gmail.com', 'password': 'DDnmVV45!!', 'name': 'acc5'},
 ]
 
 # Numero massimo di account simultanei
