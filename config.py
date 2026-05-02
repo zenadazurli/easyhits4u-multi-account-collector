@@ -1,23 +1,29 @@
-# config.py - Configurazione per il multi-account collector
+# config.py
 
-# LISTA DEGLI ACCOUNT DA UTILIZZARE
-# Formato: email, password, nome_identificativo
+# Account da utilizzare (solo email, le password non servono perché usiamo i cookie)
+# Devono corrispondere ESATTAMENTE alle email per cui hai caricato i cookie su Supabase
 ACCOUNTS = [
-    {'email': 'dangiopiera+filippomesherda@gmail.com', 'password': 'BV36!dav$C', 'name': 'acc1'},
-    {'email': 'piersilviogarrini+linadarini@gmail.com', 'password': 'GF45!!dave', 'name': 'acc2'},
-    {'email': 'sandrominori50+ucecelu@gmail.com', 'password': 'DDnmVV45!!', 'name': 'acc3'},
-    {'email': 'sandrominori50+ulonomizano@gmail.com', 'password': 'DDnmVV45!!', 'name': 'acc4'},
-    {'email': 'sandrominori50+uzakabechi@gmail.com', 'password': 'DDnmVV45!!', 'name': 'acc5'},
+    {'email': 'sandrominori50+uisnrnafwttvvceer@gmail.com', 'name': 'acc6'},
+    {'email': 'sandrominori50+ulimugekalochinefo@gmail.com', 'name': 'acc7'},
+    {'email': 'sandrominori50+ukaxixigalilo@gmail.com', 'name': 'acc8'},
+    {'email': 'sandrominori50+usaparmzogg@gmail.com', 'name': 'acc9'},
+    {'email': 'sandrominori50+umifomixirmncgg@gmail.com', 'name': 'acc10'},
+    {'email': 'sandrominori50+ukukamulurmgaka@gmail.com', 'name': 'acc11'},
+    {'email': 'sandrominori50+udizageku@gmail.com', 'name': 'acc12'},
+    {'email': 'sandrominori50+uzalifolusageneka@gmail.com', 'name': 'acc13'},
+    {'email': 'sandrominori50+ulugarecexisa@gmail.com', 'name': 'acc14'},
+    {'email': 'sandrominori50+ukageluli@gmail.com', 'name': 'acc10'},
+    {'email': 'sandrominori50+ukaxiloki@gmail.com', 'name': 'acc11'},
+    {'email': 'sandrominori50+uchikilaremu@gmail.com', 'name': 'acc12'},
+    {'email': 'sandrominori50+ufrrmncrachinora@gmail.com', 'name': 'acc13'},
+    {'email': 'sandrominori50+unenomasagebebe@gmail.com', 'name': 'acc14'},
 ]
 
 # Numero massimo di account simultanei
-MAX_CONCURRENT_ACCOUNTS = 5
+MAX_CONCURRENT_ACCOUNTS = 14
 
 # Ritardo tra l'avvio di un account e l'altro (secondi)
 STAGGERED_START_DELAY = 3
 
-# Tempo di attesa tra un tentativo e l'altro
-REQUEST_TIMEOUT = 15
-
-# URL di riferimento
-REFERER_URL = "https://www.easyhits4u.com/?ref=nicolacaporale"
+# Dataset FAISS (su Hugging Face)
+DATASET_REPO = "zenadazurli/easyhits4u-dataset"
